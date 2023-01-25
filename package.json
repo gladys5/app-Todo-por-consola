@@ -1,0 +1,23 @@
+{
+  "name": "appdconsola",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gladys5/app-Todo-por-consola.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gladys5/app-Todo-por-consola/issues"
+  },
+  "homepage": "https://github.com/gladys5/app-Todo-por-consola#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
