@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/gladys5/app-Todo-por-consola#readme",
   "dependencies": {
-    "colors": "^1.4.0"
+    "colors": "^1.4.0",
+    "inquirer": "^9.1.4"
   }
 }
