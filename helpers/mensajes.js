@@ -1,6 +1,6 @@
 
 
-require('colors')
+
 
 const mostrarMenu =()=>{ 
     //retornamos una promesa para evitar que el programa invalide la primera question la promesa resive 2 parametros resolve y reyect en este caso no se require pasarlo por que solo estamos mostrando una interface
