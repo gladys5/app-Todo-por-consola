@@ -1,6 +1,7 @@
 import inquirer from "inquirer"
 
 import colors from "colors"
+import readline from "readline"
 
 const menuOpts = [
   {
@@ -29,5 +30,22 @@ const inquirerMenu = async () => {
 
   return opt
 }
+  const pausa = () => {
+    //repetimos una promesa
+    return new Promise((resolve) => {
+      const readline1 = readline.createInterface({
+        input: process.stdin,
+        output: process.stdout,
+      })
+      readline1.question(
+        `\nPresione ${"ENTER".blue} para continuar\n`,
+        (opt) => {
+          readline1.close()
+          //resolvemos sin parametro por que lo que el usuario escriba en este punto no es relevancia solo buscamos cachar el ENTER
+          resolve()
+        }
+      )
+    })
+  }
 
-export { inquirerMenu }
+export { inquirerMenu ,pausa}
